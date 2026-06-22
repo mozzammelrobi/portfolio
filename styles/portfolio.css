@@ -14,12 +14,50 @@
     color: #FD6E0A; 
 }
 
+.dark-2 {
+    color:#474747
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
 /* nav styles */
 nav{
-    display:flex
+    display:flex;
+    align-items: center ;
+    justify-content: space-between;
+    margin: 0 200px
+
+
 }
 
 .nav-title{
     font-weight: 800;
     font-size: 45px;
 }
+
+nav ul {
+    display: flex;
+
+
+}
+nav ul li {
+    list-style-type: none;
+        margin-right: 50px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+
+
