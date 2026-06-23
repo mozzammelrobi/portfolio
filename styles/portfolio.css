@@ -10,6 +10,10 @@
 
 
 /* common shared styles */
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary {
     color: #FD6E0A; 
 }
@@ -26,7 +30,16 @@
     border-radius: 5px;
     border: none;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
 
+.section-description {
+    font-size: 18px;
+    color: #757575;
+}
 
 /* header */
 
@@ -100,4 +113,29 @@ nav ul li a {
 .banner-portfolio-pic{
     width: 580px;
 
+}
+
+
+/* MAIN STYLES */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* ABOUT STYLES */
+
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-between;
+}
+.item-description{
+    font-weight: bold;
 }
